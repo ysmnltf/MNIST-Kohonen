@@ -36,7 +36,7 @@ Neurons weights are updated using the hebb rule.
 Radius is updated after each epoch using the following formula:
 
 <p style="text-align:center;">
-<img src="./rdecay.jpg"/>
+<img src="./images/rdecay.jpg"/>
 </p>
 
 t is the time constant.
@@ -46,7 +46,7 @@ t is the time constant.
 Learning rate is updated after each epoch using the following formula:
 
 <p style="text-align:center;">
-<img src="./lrdecay.jpg"/>
+<img src="./images/lrdecay.jpg"/>
 </p>
 
 t is the time constant.
@@ -73,7 +73,7 @@ Size of all SOMs is 20x20.
     <td class="tg-0lax">5</td>
     <td class="tg-0lax">None</td>
     <td class="tg-0lax">None</td>
-    <td class="tg-0lax"><img width="500" src="./map1.jpg"/></td>
+    <td class="tg-0lax"><img width="500" src="./images/map1.jpg"/></td>
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
@@ -81,7 +81,7 @@ Size of all SOMs is 20x20.
     <td class="tg-0lax">3</td>
     <td class="tg-0lax">t = 80</td>
     <td class="tg-0lax">None</td>
-    <td class="tg-0lax"><img width="500" src="./map2.jpg"/></td>
+    <td class="tg-0lax"><img width="500" src="./images/map2.jpg"/></td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
@@ -89,7 +89,7 @@ Size of all SOMs is 20x20.
     <td class="tg-0lax">3</td>
     <td class="tg-0lax">t = 80</td>
     <td class="tg-0lax">t = 120</td>
-    <td class="tg-0lax"><img width="500" src="./map3.jpg"/></td>
+    <td class="tg-0lax"><img width="500" src="./images/map3.jpg"/></td>
   </tr>
 </tbody>
 </table>
