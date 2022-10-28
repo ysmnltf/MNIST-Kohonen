@@ -53,11 +53,12 @@ t is the time constant.
 
 # Results
 
+Size of all SOMs is 20x20.
+
 <table class="tg">
 <thead>
   <tr>
     <th class="tg-0pky">Version</th>
-    <th class="tg-0pky">Size</th>
     <th class="tg-0lax">Initial Learning Rate</th>
     <th class="tg-0lax">Initial Radius</th>
     <th class="tg-0lax">LR decay</th>
@@ -68,7 +69,6 @@ t is the time constant.
 <tbody>
   <tr>
     <td class="tg-0lax">1</td>
-    <td class="tg-0lax">20x20</td>
     <td class="tg-0lax">0.01</td>
     <td class="tg-0lax">5</td>
     <td class="tg-0lax">None</td>
@@ -77,20 +77,18 @@ t is the time constant.
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
-    <td class="tg-0lax">20x20</td>
     <td class="tg-0lax">0.5</td>
     <td class="tg-0lax">3</td>
-    <td class="tg-0lax">time constant of 80</td>
+    <td class="tg-0lax">t = 80</td>
     <td class="tg-0lax">None</td>
     <td class="tg-0lax"><img width="500" src="./map2.jpg"/></td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
-    <td class="tg-0lax">20x20</td>
     <td class="tg-0lax">10</td>
     <td class="tg-0lax">3</td>
-    <td class="tg-0lax">time constant of 80</td>
-    <td class="tg-0lax">time constant of 120</td>
+    <td class="tg-0lax">t = 80</td>
+    <td class="tg-0lax">t = 120</td>
     <td class="tg-0lax"><img width="500" src="./map3.jpg"/></td>
   </tr>
 </tbody>
