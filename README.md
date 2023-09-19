@@ -1,12 +1,12 @@
-# Applying Self-Organizing Map (Kohonen) on MNIST Dataset
+# Kohonen Self-Organizing Maps (SOM) for MNIST Dataset
 
-In the notebook, Kohonen (SOM) is implemented and applied on 5000 samples of MNIST dataset. The algorithm is applied in 25 minibatches of size 200.
+In the notebook, a Kohonen (SOM) is implemented and applied on 5000 samples of MNIST dataset. The algorithm is applied in 25 minibatches of size 200.
 
 # Dataset
 
 MNIST is dataset of handwritten digits. 500 samples of each digit is randomly chosen, creating a dataset of size 5000.
 
-# Implementation
+# Implementation and Training
 
 Essential processes of a SOM are:
 
@@ -19,19 +19,19 @@ Essential processes of a SOM are:
 
 Each weight is randomly assigned by numpy.random.
 
-# 2.Competition
+## 2.Competition
 
 Closest neurons for each input is found by calculating the euclidean distance, and deemed as winners.
 
-# 3. Cooperation
+## 3. Cooperation
 
 Neighbors of each winner is determined by calculating the gaussian function. σ is the neighborhood radius.
 
-# 4. Synaptic Adaptation
+## 4. Synaptic Adaptation
 
 Neurons weights are updated using the hebb rule.
 
-# Radius decay
+## Radius decay
 
 Radius is updated after each epoch using the following formula:
 
@@ -41,7 +41,7 @@ Radius is updated after each epoch using the following formula:
 
 t is the time constant.
 
-# Learning rate decay
+## Learning rate decay
 
 Learning rate is updated after each epoch using the following formula:
 
